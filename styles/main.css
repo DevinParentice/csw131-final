@@ -4,6 +4,19 @@
 	box-sizing: border-box;
 }
 
+html,
+body {
+	height: 100%;
+}
+
+.main_container {
+	min-height: 100vh;
+	overflow: hidden;
+	display: block;
+	position: relative;
+	padding-bottom: 4em;
+}
+
 .logo {
 	display: inline-block;
 	position: relative;
@@ -27,4 +40,13 @@ nav ul > * + * {
 
 nav ul li {
 	display: inline;
+}
+
+footer {
+	display: flex;
+	position: absolute;
+	bottom: 0;
+	height: 2.5em;
+	width: 100%;
+	justify-content: center;
 }
