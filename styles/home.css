@@ -8,6 +8,10 @@
 }
 
 .article_title {
+	margin-bottom: 0.25em;
+}
+
+.author {
 	margin-bottom: 1em;
 }
 
@@ -27,4 +31,9 @@
 .article_image {
 	width: 700px;
 	border-radius: 4px;
+}
+
+.attribution {
+	font-size: 0.75em;
+	color: rgb(65, 65, 65);
 }
