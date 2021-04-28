@@ -1,10 +1,38 @@
+.side_list {
+	background-color: #f1e8cf;
+	border-radius: 4px;
+	padding: 2em 2em;
+	margin: 0 2%;
+	width: 300px;
+	position: fixed;
+	box-shadow: 0 10px 6px -6px #777;
+}
+
+.side_list ol {
+	margin: 1em;
+}
+
+.side_list ol > * + * {
+	margin-top: 0.5em;
+}
+
+.see_all_link {
+	text-decoration: none;
+	color: black;
+}
+
+.see_all_link:hover {
+	color: gray;
+}
+
 .main_article {
-	background-color: rgba(166, 133, 85, 0.35);
+	background-color: #f1e8cf;
 	border-radius: 4px;
 	padding: 2em 2em;
 	margin: 5em auto;
 	text-align: left;
 	width: 760px;
+	box-shadow: 0 10px 6px -6px #777;
 }
 
 .article_title {
