@@ -1,0 +1,30 @@
+.main_article {
+	background-color: rgba(166, 133, 85, 0.35);
+	border-radius: 4px;
+	padding: 2em 2em;
+	margin: 5em auto;
+	text-align: left;
+	width: 760px;
+}
+
+.article_title {
+	margin-bottom: 1em;
+}
+
+.article_title a {
+	text-decoration: none;
+	color: black;
+}
+
+.article_title a:hover {
+	color: gray;
+}
+
+.article_preview {
+	margin-bottom: 1em;
+}
+
+.article_image {
+	width: 700px;
+	border-radius: 4px;
+}
