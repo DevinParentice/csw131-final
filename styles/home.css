@@ -39,16 +39,25 @@
 	margin-bottom: 0.25em;
 }
 
-.author {
-	margin-bottom: 1em;
-}
-
 .article_title a {
 	text-decoration: none;
 	color: black;
 }
 
 .article_title a:hover {
+	color: gray;
+}
+
+.author {
+	margin-bottom: 1em;
+}
+
+.author a {
+	text-decoration: none;
+	color: black;
+}
+
+.author a:hover {
 	color: gray;
 }
 
