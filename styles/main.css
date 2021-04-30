@@ -65,6 +65,10 @@ nav ul li a:hover {
 	color: gray;
 }
 
+.active {
+	color: gold;
+}
+
 .dropdown_container {
 	padding-bottom: 2em;
 }
