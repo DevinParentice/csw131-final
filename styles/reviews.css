@@ -1,1 +1,58 @@
+.review_block {
+	background-color: #f1e8cf;
+	border-radius: 10px;
+	margin: 10% auto;
+	max-width: 50%;
+}
 
+.review {
+	padding-bottom: 3em;
+	border: 2px solid saddlebrown;
+	border-radius: 6px 6px 0 0;
+}
+
+.review_block > * + * {
+	border-radius: 0;
+	border-top: 0;
+}
+
+.review:last-child {
+	border-radius: 0 0 6px 6px;
+}
+
+.review_block .review .review_poster {
+	width: 8rem;
+	border-radius: 10px;
+	margin-top: 1em;
+	margin-left: 2em;
+	margin-right: 2em;
+	float: left;
+}
+
+.review_block .review h2 {
+	padding-top: 1em;
+	margin-bottom: 0.5em;
+}
+
+.review_block .review p {
+	max-width: 80ch;
+}
+
+.review_rating {
+	margin: 0.5em 0;
+}
+
+.review_block .review .review_rating .star {
+	width: 24px;
+	height: auto;
+	vertical-align: sub;
+}
+
+.review_block .review .review_link {
+	text-decoration: none;
+	color: black;
+}
+
+.review_block .review .review_link:hover {
+	color: gray;
+}
