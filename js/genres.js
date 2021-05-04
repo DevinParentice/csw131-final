@@ -7,7 +7,6 @@ genreSelect.oninput = (e) => {
 	if (e.target.value !== "") {
 		rating = parseInt(e.target.value);
 	}
-	console.log(rating);
 	childArray.forEach((child) => {
 		const classList = child.classList;
 		if (parseInt(classList[1]) >= rating) {

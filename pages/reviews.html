@@ -17,8 +17,8 @@
 				</div>
 				<nav>
 					<ul>
-						<li><a href="#" class="active">Reviews</a></li>
-						<li><a href="#">Yearly Rankings</a></li>
+						<li><a href="./reviews.html" class="active">Reviews</a></li>
+						<li><a href="./yearly_rankings.html">Yearly Rankings</a></li>
 						<li><a href="#">All Time Best</a></li>
 						<li class="dropdown_container">
 							<a href="#">Coming Soon</a>
@@ -31,13 +31,16 @@
 				</nav>
 			</header>
 			<main>
-				<div class="input_wrapper">
+				<section class="input_wrapper">
+					<label for="name">Show movies above this rating</label>
+					<br />
 					<input
 						type="number"
 						class="rating_select"
-						placeholder="Show above this rating"
+						placeholder="Input rating"
+						name="rating"
 					/>
-				</div>
+				</section>
 				<section class="review_block" id="review_block">
 					<div class="review 6">
 						<img
