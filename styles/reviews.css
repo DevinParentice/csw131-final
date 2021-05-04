@@ -1,7 +1,12 @@
+.input_wrapper {
+	margin: 6em auto 1em auto;
+	max-width: 50%;
+}
+
 .review_block {
 	background-color: #f1e8cf;
 	border-radius: 10px;
-	margin: 10% auto;
+	margin: 0 auto;
 	max-width: 50%;
 }
 
