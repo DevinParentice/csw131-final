@@ -6,6 +6,7 @@
 	border: 2px solid saddlebrown;
 	border-radius: 6px;
 	margin-right: 6em;
+	box-shadow: 0 10px 6px -6px #777;
 }
 
 .review_block {
@@ -13,6 +14,7 @@
 	border-radius: 10px;
 	margin: 6em auto 1em auto;
 	max-width: 50%;
+	box-shadow: 0 10px 6px -6px #777;
 }
 
 .review {

@@ -1,0 +1,80 @@
+.rankings_container {
+	margin: 0 auto;
+	margin-top: 6em;
+	max-width: 50%;
+}
+
+.rankings_container > * + * {
+	margin-top: 2em;
+}
+
+.rankings {
+	background-color: #f1e8cf;
+	border: 2px solid saddlebrown;
+	border-radius: 6px;
+	box-shadow: 0 10px 6px -6px #777;
+}
+
+.rankings .info_container {
+	padding: 2em;
+}
+
+.rankings .info_container::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.rankings h2 {
+	font-size: 2em;
+	float: left;
+}
+
+.rankings .see_rankings {
+	font-size: 2em;
+	text-decoration: none;
+	color: black;
+	float: right;
+	transition: transform 0.1s ease-in-out;
+}
+
+.rankings .see_rankings:hover {
+	color: gray;
+	transform: translateX(20px);
+	transition: transform 0.1s ease-in-out;
+}
+
+.decade {
+	background-color: #f1e8cf;
+	border: 2px solid saddlebrown;
+	position: relative;
+	border-radius: 6px;
+	box-shadow: 0 10px 6px -6px #777;
+	padding-left: 2em;
+	padding-right: 2em;
+	padding-top: 2em;
+	padding-bottom: 6em;
+}
+
+.decade h2,
+.decade p {
+	display: inline-block;
+}
+
+.decade p a {
+	text-decoration: none;
+	color: black;
+}
+
+.decade p a:hover {
+	color: gray;
+}
+
+.decade .decade_picture {
+	float: right;
+	width: 400px;
+	position: absolute;
+	padding-left: 2em;
+	top: 2em;
+	right: 2em;
+}
