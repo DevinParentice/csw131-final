@@ -23,7 +23,7 @@
 	border-radius: 6px 6px 0 0;
 }
 
-.review_block > * + * {
+.review_block>*+* {
 	border-radius: 0;
 	border-top: 0;
 }
@@ -67,4 +67,10 @@
 
 .review_block .review .review_link:hover {
 	color: gray;
+}
+
+@media screen and (max-device-width: 1600px) {
+	.input_wrapper {
+		margin-right: 1.5em;
+	}
 }
