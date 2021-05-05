@@ -1,17 +1,21 @@
+/* Import fonts */
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat&display=swap");
 
+/* Default styling */
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
 
+/* Make page take full height and set default font */
 html,
 body {
 	height: 100%;
 	font-family: "Montserrat", sans-serif;
 }
 
+/* Give main container padding for footer */
 .main_container {
 	min-height: 100vh;
 	overflow: hidden;
@@ -20,6 +24,7 @@ body {
 	padding-bottom: 4em;
 }
 
+/* Start of navigation styling */
 .logo {
 	display: inline-block;
 	font-family: "Abril Fatface", cursive;
@@ -108,6 +113,7 @@ ul li ul li {
 	width: 100%;
 }
 
+/* Start construction page styling */
 .construction_title {
 	text-align: center;
 	font-size: 2em;
@@ -119,6 +125,7 @@ ul li ul li {
 	margin-top: 2em;
 }
 
+/* Start footer styling */
 footer {
 	text-align: center;
 	position: absolute;

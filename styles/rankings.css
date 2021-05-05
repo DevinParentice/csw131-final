@@ -1,3 +1,4 @@
+/* Start rankings styling */
 .rankings_container {
 	margin: 0 auto;
 	margin-top: 6em;
@@ -43,6 +44,8 @@
 	transform: translateX(20px);
 	transition: transform 0.1s ease-in-out;
 }
+
+/* Start decade section styling */
 
 .decade {
 	background-color: #f1e8cf;

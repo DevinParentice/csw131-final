@@ -1,3 +1,4 @@
+/* Start aside styling */
 .side_list {
 	background-color: #f1e8cf;
 	border: 2px solid saddlebrown;
@@ -26,6 +27,7 @@
 	color: gray;
 }
 
+/* Start main section of articles styling */
 .main_article {
 	background-color: #f1e8cf;
 	border: 2px solid saddlebrown;

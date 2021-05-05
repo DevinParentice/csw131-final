@@ -10,16 +10,20 @@
 		<link rel="stylesheet" href="../styles/reviews.css" />
 	</head>
 	<body>
+		<!-- Set container to give padding for footer -->
 		<div class="main_container">
 			<header>
+				<!-- Main logo of website -->
 				<div class="logo">
 					<h1><a href="/index.html">Movie Reviews</a></h1>
 				</div>
+				<!-- Start navigation bar -->
 				<nav>
 					<ul>
 						<li><a href="./reviews.html" class="active">Reviews</a></li>
 						<li><a href="./yearly_rankings.html">Yearly Rankings</a></li>
 						<li><a href="./all_time.html">All Time Best</a></li>
+						<!-- This list item contains the hidden dropdown -->
 						<li class="dropdown_container">
 							<a href="./coming_soon.html">Coming Soon</a>
 							<ul class="dropdown">
@@ -30,8 +34,10 @@
 					</ul>
 				</nav>
 			</header>
+			<!-- Start of main section -->
 			<main>
-				<section class="input_wrapper">
+				<!-- This aside allows for the user to filter by rating -->
+				<aside class="input_wrapper">
 					<label for="name">Show movies above this rating</label>
 					<br />
 					<input
@@ -40,7 +46,8 @@
 						placeholder="Input rating"
 						name="rating"
 					/>
-				</section>
+				</aside>
+				<!-- Each div in this section is one movie that has been reviewed -->
 				<section class="review_block" id="review_block">
 					<div class="review 6">
 						<img
@@ -134,6 +141,7 @@
 					</div>
 				</section>
 			</main>
+			<!-- Start of footer -->
 			<footer>
 				<p>
 					Copyright &copy; 2021 Devin Parentice. Posted temporarily for academic
